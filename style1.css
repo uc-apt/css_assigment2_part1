@@ -1,0 +1,105 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: absolute;
+    background-color: #005BF2;
+    width: 350px;
+    height: 215px;
+    top: 120px;
+    left: 545px;
+    padding: 4px 4px;
+    border-radius: 5px;
+}
+
+.upper_options{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: #005BF2;
+    color: white;
+}
+
+.lower_options{
+    width: 100%;
+    height: 90%;
+    background-color: #ECE9D8;
+}
+
+.modal_btn {
+    width: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.title-bar-controls button{
+    min-height: 20px;
+}
+
+.navigation_btn{
+    width: 20px;
+    border: 1px solid white;
+    height: 18px;
+    border-radius: 2px;
+}
+
+#help_btn{
+    background-color: #497BF6;
+
+}
+
+#close_btn {
+    background-color: #E45E3A;
+}
+#modal_name{
+    font-size: medium;
+    font-weight: 500;
+}
+.wrapper_left {
+    padding: 5px 5px;
+    width: 255px;
+}
+
+.heading_txt_area{
+    color: black;
+
+}
+
+.txt_area{
+    width: 100%;
+}
+
+.close_btn_txt_area{
+    float: right;
+}
+
+.field-row-stacked {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.wrapper_right{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_btn{
+    width: 30px;
+}
+
+.upr_lft_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
