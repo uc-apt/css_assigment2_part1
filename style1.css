@@ -6,12 +6,10 @@ body{
 
 
 .container {
-    position: absolute;
     background-color: #005BF2;
     width: 350px;
     height: 215px;
-    top: 120px;
-    left: 545px;
+    margin: auto;
     padding: 4px 4px;
     border-radius: 5px;
 }
