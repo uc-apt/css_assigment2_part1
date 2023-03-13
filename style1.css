@@ -9,7 +9,8 @@ body{
     background-color: #005BF2;
     width: 350px;
     height: 215px;
-    margin: auto;
+    top: 120px;
+    left: 545px;
     padding: 4px 4px;
     border-radius: 5px;
 }
