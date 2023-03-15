@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/xp.css" />
-    <link rel="stylesheet" href="style1.css" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="https://unpkg.com/xp.css" >
+    <link rel="stylesheet" href="style1.css" >
+    <link href="//db.onlinewebfonts.com/c/794e572cce05ab25cdc31a0d3368c829?family=MrEavesXLModNarOT-Heavy" rel="stylesheet" type="text/css">
     <title>Document</title>
   </head>
   <body>
@@ -13,8 +14,6 @@
       <div class="upper_options">
         <div id="modal_name">Custom shows</div>
         <div class="modal_btn title-bar-controls">
-          <!-- <div class="navigation_btn" id="help_btn"></div>
-          <div class="navigation_btn" id="close_btn"></div> -->
           <button aria-label="Help"></button>
           <button aria-label="Close"></button>
         </div>
@@ -23,22 +22,32 @@
         <div class="field-row-stacked" >
             <div class="wrapper_left">
                 <div class="heading_txt_area">C<u>u</u>stom shows:</div>
-                <textarea class="txt_area" name="" id="" cols="30" rows="10"></textarea>
-                <div class="close_btn_txt_area"><button>Close</button></div>
+                <div class="field-row">
+                  <input id="text21" type="text" >
+                </div>
+                <div class="close_btn_txt_area"><button><u>C</u>lose</button></div>
             </div>
             <div class="wrapper_right">
                 <div class="upr_lft_btn">
-                    <button class="left_btn"><u>N</u>ew...</button>
-                    <button class="left_btn"><u>E</u>dit...</button>
-                    <button class="left_btn"><u>R</u>emove</button>
-                    <button class="left_btn">Cop<u>y</u></button>
+                    <button id="new_btn" class="left_btn"><u>N</u>ew...</button>
+                    <button class="left_btn" disabled><u class="blurIt">E</u>dit...</button>
+                    <button class="left_btn" disabled><u class="blurIt">R</u>emove</button>
+                    <button class="left_btn" disabled>Cop<u class="blurIt">y</u></button>
                 </div>
                 <div class="lwr_lft_btn">
-                    <button class="left_btn"><u>S</u>how</button>
+                    <button class="left_btn" disabled><u class="blurIt">S</u>how</button>
                 </div>
             </div>
         </div>
       </div>
     </div>
+    <button id="test">testing</button>
+    </script>
+    <script>
+      window.onload = function(){
+        document.getElementById('test').click();
+      }
+    </script>
   </body>
+
 </html>
